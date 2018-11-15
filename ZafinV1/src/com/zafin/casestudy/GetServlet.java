@@ -57,7 +57,7 @@ public class GetServlet extends HttpServlet {
 		System.out.println("ssssssssse");     
 		System.out.println("e213112");
 		System.out.println("3132sdsa");
-		System.out.println("2323423ddf");
+		System.out.println("2323423ddf ");
 		String leftDiagList[];
 		String rightDiagList[];
 		String topElementsList[];

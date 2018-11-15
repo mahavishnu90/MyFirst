@@ -54,7 +54,7 @@ public class GetServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse httpResponse) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
-		System.out.println("ssssss");     
+		System.out.println("ssssssssse");     
 		String leftDiagList[];
 		String rightDiagList[];
 		String topElementsList[];

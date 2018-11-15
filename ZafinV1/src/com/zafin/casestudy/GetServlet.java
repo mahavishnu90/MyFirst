@@ -55,6 +55,8 @@ public class GetServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		
 		System.out.println("ssssssssse");     
+		System.out.println("e213112");
+		System.out.println("3132sdsa");
 		String leftDiagList[];
 		String rightDiagList[];
 		String topElementsList[];

@@ -1,0 +1,369 @@
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300); #005995 #87CEEB*/
+@charset "UTF-8";
+
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+#wrapper {
+	min-height: 130%;
+	background-size: 100% 100%;
+}
+html *
+{
+   font-family: Verdana, Arial, sans-serif;
+}
+
+input { font-size: 16px; }
+select { font-size: 16px; }
+textarea { font-size: 16px; }
+#content {
+	 padding-top: 10px;
+	 padding-bottom: 10px; /* Height of the footer element */
+     font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+     color: #181818;
+     font-weight: normal;
+     font-size: 15px;
+     transition: 0.5s;
+     position: absolute;
+     float: none;
+     margin-left: 240px;
+	 width: 80%;
+}
+
+Base Styles
+#cssmenu, #cssmenu ul, #cssmenu li, #cssmenu1, #cssmenu1 ul, #cssmenu1 li,
+       #cssmenu a {
+       margin: 0;
+       padding: 0;
+       border: 0;
+       list-style: none;
+       font-weight: normal;
+       text-decoration: none;
+       line-height: 1.3;
+       font-family: 'Open Sans', sans-serif;
+        font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+       font-size: 14px;
+       /* position: relative; */
+}
+
+#cssmenu {
+       width: 225px;
+  background: #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 3px;
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  left: -230px;
+  position: absolute;
+
+}
+
+
+
+#cssmenu1>ul>li>a {
+       font-size: 13.2px;
+       display: block;
+       color: #000;
+       /*text-shadow: 0 1px 1px #000;*/
+       background: transparent linear-gradient(#6ED6FF 0%, #FFF 130%) repeat scroll 0% 0%;
+       box-shadow: 3px 3px 1px #888888;
+       border-radius: 4px;
+
+}
+
+
+
+Sub menu
+#cssmenu ul ul {
+       padding: 5px 12px;
+       display: none;
+
+}
+
+#cssmenu ul ul li {
+       padding: 3px 0;
+
+}
+
+#cssmenu ul ul a {
+       display: block;
+       color: #080808;
+         line-height: 150%;
+       font-size: 15px;
+       font-weight: bold;
+       text-align: left;
+       margin-left: 30px;
+       color: #181818;
+
+
+
+}
+
+#cssmenu ul ul a:hover{
+        width: 150px;
+          background: #0063A6;
+          text-align: left;
+          -moz-box-sizing: border-box;
+       color: #fff !important;
+      /*  font-size: 14px !important; */
+       /* text-shadow: 0 1px 1px #000; */
+       border: 2px solid #0063A6;
+       position:absolute;
+       border-radius: 1px;
+       position: relative;
+       /* font-style: oblique; */
+       top: -webkit-calc(50% - 60px);
+       top: calc(50% - 60px);
+
+
+}
+#cssmenu ul ul a:focus{
+
+            width: 150px;
+          background: #0063A6;
+          text-align: left;
+          -moz-box-sizing: border-box;
+       color: #fff !important;
+       font-size: 15px !important;
+       /* text-shadow: 0 1px 1px #000; */
+       border: 2px solid #C5DBEC;
+       position:absolute;
+       border-radius: 1px;
+       position: relative;
+   /*     font-style: oblique; */
+       top: -webkit-calc(50% - 60px);
+       top: calc(50% - 60px);
+}
+
+}
+
+
+
+#cssmenu ul ul li.odd {
+       background: #f4f4f4;
+}
+
+#cssmenu ul ul li.even {
+       background: #f4f4f4;
+}
+
+#header .header_slogan1 { padding: 5px 50px 0 0; font-size: 13px; font-weight: bold; color: #2595da; line-height: 15px; }
+
+.ui-widget-header {
+       background: -moz-linear-gradient(#2595da 0%, #24A4DA 100%);
+       background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #24A4DA),
+              color-stop(100%, #24A4DA));
+       background: -webkit-linear-gradient(#2595da 0%, #24A4DA 100%);
+       background: linear-gradient(#2595da 0%, #24A4DA 100%);
+       box-shadow: 2px 2px 1px #888888;
+       border-radius: 4px;
+       color: #fff;
+       font-weight: bold;
+}
+
+.ui-state-focus {
+       border: 1px solid #fff;
+       background: #fff url(images/ui-bg_highlight-soft_33_003147_1x100.png)
+              50% 50% repeat-x;
+       font-weight: normal;
+       color: #ffffff;
+}
+
+#cssmenu1 a {
+       margin: 0;
+       padding: 0;
+       border: 0;
+       list-style: none;
+       font-weight: normal;
+       text-decoration: none;
+       line-height: 1;
+       font-family: 'Open Sans', sans-serif;
+       font-size: 14px;
+       position: relative;
+}
+
+#cssmenu1 a {
+       line-height: 1.3;
+}
+
+#cssmenu1 {
+       width: 230px;
+       background: #fff;
+       -webkit-border-radius: 1px;
+       -moz-border-radius: 1px;
+       border-radius: 1px;
+       padding: 0;
+       -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+       -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+       box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+       background: #4792C2 url(images/ui-bg_highlight-soft_75_cccccc_1x100.png)
+              50% 50% repeat-y;
+       float: left;
+       height: 540px;
+       margin: 0 auto;
+       padding: 0;
+       width: 230px;
+}
+
+#cssmenu1>ul>li {
+       margin: 0 0 2px 0;
+}
+
+#cssmenu1>ul>li:last-child {
+       margin: 0;
+}
+
+
+#cssmenu1>ul>li>a>span {
+       display: block;
+       border: 1px solid #589ADE;
+       padding: 6px 10px;
+       -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+       border-radius: 4px;
+       font-weight: bold;
+}
+
+#cssmenu1>ul>li>a:hover {
+       text-decoration: none;
+}
+
+#cssmenu>ul>li.active {
+       border-bottom: none;
+}
+
+#cssmenu1>ul>li.active>a {
+       background: #0063A6;
+       background: -moz-linear-gradient(#0063A6 0%, #C5DBEC 100%);
+       background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0063A6),
+              color-stop(100%, #C5DBEC));
+       background: -webkit-linear-gradient(#0063A6 0%, #C5DBEC 100%);
+       background: linear-gradient(#0063A6 0%, #C5DBEC 100%);
+       color: #000;
+       /*text-shadow: 0 1px 1px #fff;*/
+       border: 1px solid #C5DBEC;
+}
+
+#cssmenu1>ul>li.active>a span {
+       border: 1px solid #0063A6;
+}
+
+#cssmenu1>ul>li.has-sub>a span {
+       background: url(../images/icon_plus1.png) 98% center no-repeat;
+}
+
+#cssmenu1>ul>li.has-sub.active>a span {
+       background: url(../images/icon_minus1.png) 98% center no-repeat;
+}
+
+Sub menu
+#cssmenu1 ul ul {
+       padding: 10px 24px;
+       display: none;
+}
+
+#cssmenu1 ul ul li {
+       padding: 8px 4px;
+}
+
+#cssmenu1 ul ul a {
+       display: block;
+       color: #000;
+       font-size: 10px;
+       font-weight: bold;
+       text-align: center;
+       /*text-shadow: 0 1px 1px #000;*/
+}
+
+#cssmenu1 ul ul a:hover {
+       color: #000;
+       text-shadow: 0 1px 1px #000;
+       /*    -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;  // #00CCFF sky blue*/
+}
+
+#cssmenu1 ul ul li.odd {
+       background: #f4f4f4;
+}
+
+#cssmenu1 ul ul li.even {
+       background: #f4f4f4;
+}
+
+
+/***NOW STYLE THE BUTTON'S HOVER AND FOCUS STATES***/
+input#submitbutton:hover, input#submitbutton:focus {
+       color: #edebda;
+       /*reduce the spread of the shadow to give a pushed effect*/
+       -webkit-box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+       -moz-box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+       box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+       font-family: myFirstFont !important;
+		font-weight: bold;
+}
+
+input#gobutton {
+       cursor: pointer;
+       /*forces the cursor to change to a hand when the button is hovered*/
+       padding: 5px 25px; /*add some padding to the inside of the button*/
+       background: #0063A6; /*the colour of the button*/
+       border: 1px solid #0063A6;
+       /*required or the default border for the browser will appear*/
+       /*give the button curved corners, alter the size as required*/
+       -moz-border-radius: 10px;
+       -webkit-border-radius: 10px;
+       border-radius: 10px;
+       /*give the button a drop shadow*/
+       -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+       -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+       box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+       /*style the text*/
+       color: #f3f3f3;
+       font-size: 1.1em;
+       font-family: myFirstFont !important;
+		font-weight: normal;
+}
+/***NOW STYLE THE BUTTON'S HOVER AND FOCUS STATES***/
+input#gobutton:hover, input#gobutton:focus {
+       background-color: #0063A6; /*make the background a little darker*/
+       /*reduce the drop shadow size to give a pushed button effect*/
+       -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .75);
+       -moz-box-shadow: 0 0 1px rgba(0, 0, 0, .75);
+       box-shadow: 0 0 1px rgba(0, 0, 0, .75);
+       font-family: myFirstFont !important;
+		font-weight: bold;
+}
+
+
+input[type=text] {
+       background: white;
+       border: 1px solid #0063A6;/* #87CEEB */
+       border-radius: 3px;
+       box-shadow: 0 0 0;
+       color: #666;
+       outline: none;
+       height: 28px;
+       width: 150px;
+}
+input[type=text]:focus {
+       background: white;
+       border: 1px solid #0063A6;
+       border-radius: 3px;
+       border: 1px solid #0063A6; border-radius: 8px;box-shadow: 0 0 7px 0px #75B9F0;
+       color: #666;
+
+       outline: none;
+       height: 28px;
+       width: 150px;
+}
+
+
+
